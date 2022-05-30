@@ -253,7 +253,6 @@ def get_cv(X, y):
 class VideoReader:
     def __init__(self, video_filename, frame_times, img_size=[250, 250]):
         import cv2
-
         self.video = cv2.VideoCapture(video_filename)
         self.nb_frames = int(self.video.get(cv2.CAP_PROP_FRAME_COUNT))
         self.img_size = img_size
