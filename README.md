@@ -1,23 +1,22 @@
-[![build](https://github.com/ramp-kits/bovine_embryo_survival_prediction/actions/workflows/testing.yml/badge.svg)](https://github.com/ramp-kits/bovine_embryo_survival_prediction/actions/workflows/testing.yml)
-# Bovine embryos survival prediction data Challenge
+# Work done during my 2022 internship at INRIA/DATAIA under the supervision of François CAUD
+## This repository contains, in addition to the original code, my work regarding model exploration and testing
+### Jupyter Notebooks
+#### Most of this code was inspired from multiple guides found here: https://keras.io/examples/vision/
+#### Baselines:
+* transformerBaseline:
+* pure-transformer-baseline:
+* 30_models:
+* conv3d-baseline:
+* cnn-transformer-baseline:
+* cnn-logreg
 
-Starting kit for the `bovine_embryo_survival_prediction` Challenge: early prediction of the fate of bovine embryos.
+#### Tools:
+* video_visualization_tool:
 
+#### Exploration:
+* dataAugmentation:
+* cnn_300thFrame_BinaryFiltered:
+* baseline_cnn_300thFrame_BinaryGroup:
 
-# Setup
-Run the following command in your prefered local repository
-
-`git clone git@github.com:ramp-kits/bovine_embryo_survival_prediction.git`
-
-# Download OSF data
-git com 
-You can download the public data via the dedicated python script to be called as follow 
-
-```bash
-python download_data.py 
-```
-
-
-# Get started with the challenge
-
-Open the jupyter notebook `bovine_embryo_survival_prediction_starting_kit.ipynb` and follow the guide !
+### Scripts (available in the submissions folder)
+* (In the newBaseLine folder) videoclassifier.py: final product of this internship, submited to RAMP (https://ramp.studio/events/bovine_embryo_survival_prediction_open_2022/leaderboard)
