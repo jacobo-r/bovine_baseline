@@ -1,4 +1,4 @@
-# Work done during my 2022 internship at INRIA/DATAIA under the supervision of François CAUD
+# Work for the 2022 internship at INRIA/DATAIA under the supervision of François CAUD
 ## This repository contains, in addition to the original code, my work regarding model exploration and testing
 ### Jupyter Notebooks
 #### Most of this code was inspired from multiple guides found here: https://keras.io/examples/vision/
