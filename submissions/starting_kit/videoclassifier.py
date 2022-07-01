@@ -12,6 +12,7 @@ class VideoClassifier(object):
         pass
 
     def predict(self, videos: list, pred_time: float):
+        print(np.array(videos).shape, type(videos))
         proba = np.random.rand(len(videos), self.n_classes)
         proba /= proba.sum(axis=1)[:, np.newaxis]
         return proba
