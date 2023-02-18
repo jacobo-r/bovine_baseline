@@ -20,3 +20,6 @@
 
 ### Scripts (available in the submissions folder)
 * (In the newBaseLine folder) videoclassifier.py: final product of this internship, submited to RAMP (https://ramp.studio/events/bovine_embryo_survival_prediction_open_2022/leaderboard)
+
+### Report
+* My full internship report is available here: see "internship report 2022"
